@@ -16,8 +16,6 @@ console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
-
-
 // Reference (Non primitive)
 
 // Array, Objects, Functions
@@ -49,3 +47,19 @@ console.log(typeof heros);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+//*****************stack and heap********************
+
+/*datatypes are based on memory allocation
+
+Primitive datatypes->  call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory
+
+stack me jab value change hoti hai ak primitive datatype ki to copied vlaue me change hoti hai
+
+Reference/Non primitive data types -> call by reference ( array,object, function) -> heap memory
+
+heap me original value me hi change hoti hai value 
+
+JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.
+*/

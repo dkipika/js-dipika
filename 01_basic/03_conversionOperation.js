@@ -21,5 +21,40 @@ let booleanIsLoggedIn = Boolean(isLoggedI)
 // "dipika" =>true
 
 let someNum = 33
-let stringNumber = String(someNum);
-console.log(typeof stringNumber);
+// let stringNumber = String(someNum);
+// console.log(typeof stringNumber);
+
+
+//****************************operation******************************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "Hello "
+let str2 = "Dipika"
+
+let str3 = str1+str2
+console.log(str3);
+
+//go to ecmscript website for primmitive
+console.log(1+"2");
+console.log("1"+2);
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+
+console.log(+true);
+console.log(+"");
+
+
+let game=100
+game++
+console.log(game)

@@ -2,7 +2,9 @@
 
 //alert(3+3) // we are using nodeja , not web broweser
 
-console.log(3+3)
+console.log(3
+            +
+            3) (Code readability should be higher)
 
 let name = "Dipika"
 let age = 19
